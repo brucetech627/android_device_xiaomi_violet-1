@@ -36,4 +36,7 @@
     <dimen name="multi_user_switch_keyguard_margin">40px</dimen>
 
     <dimen name="keyguard_carrier_text_margin">70px</dimen>
+    
+    <!-- Padding for icons of the status bar from the corners. -->	
+    <dimen name="status_bar_extra_padding">18dp</dimen>
 </resources>
