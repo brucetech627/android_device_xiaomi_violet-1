@@ -30,3 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/flame/flame:10/QQ3A.200805.001/6578210:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Force triple frame buffers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
