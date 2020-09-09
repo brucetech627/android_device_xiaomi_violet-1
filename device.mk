@@ -21,13 +21,15 @@ $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pixys \
-    $(LOCAL_PATH)/overlay-system
+    $(LOCAL_PATH)/overlay-bliss \
+    $(LOCAL_PATH)/overlay-system \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay/packages/apps/Snap \
-    $(LOCAL_PATH)/overlay-system
+    $(LOCAL_PATH)/overlay-system \
+    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
