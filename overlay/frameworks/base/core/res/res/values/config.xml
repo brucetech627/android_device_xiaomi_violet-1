@@ -147,6 +147,9 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">17</integer>
+    
+    <!-- Screen on delay -->
+    <integer name="config_screen_on_delay">0</integer>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
