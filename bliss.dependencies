@@ -6,15 +6,15 @@
     "branch": "lineage-17.1"
   },
   {
-    "remote": "pixys-devices",
-    "repository": "kernel_xiaomi_sm6150",
+    "remote": "tesla59",
+    "repository": "hydra_kernel",
     "target_path": "kernel/xiaomi/sm6150",
     "branch": "ten"
   },
   {
-    "remote": "pixys-vendor",
-    "repository": "vendor_xiaomi_violet",
+    "remote": "BlissRoms-Devices",
+    "repository": "proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "ten"
+    "branch": "q"
   }
 ]
