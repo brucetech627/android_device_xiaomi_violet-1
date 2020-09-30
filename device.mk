@@ -386,6 +386,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     libjson \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-lite \
     librmnetctl \
     libxml2
 
