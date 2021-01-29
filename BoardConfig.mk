@@ -10,6 +10,7 @@ BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/violet
 
 TEMPORARY_DISABLE_PATH_RESTRICTIONS := true
+SKIP_ABI_CHECKS := true
 
 # Architecture
 TARGET_ARCH := arm64
